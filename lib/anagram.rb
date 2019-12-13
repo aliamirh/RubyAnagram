@@ -7,10 +7,6 @@ class Anagram
   def anagram_check()
     if @input1 == @input2
       return "These words are anagrams."
-    end
-  
-
-end
-
-
+    
+  end
 end

@@ -7,4 +7,9 @@ describe('Anagram#anagram_check') do
     anagram = Anagram.new('ruby','bury')
     expect(anagram.anagram_check()).to(eq('These words are anagrams.'))
   end
+  it('checks to see if words given are not an anagram') do
+    anagram = Anagram.new('ruby','curby')
+    expect(anagram.anagram_check()).to(eq('Sorry, these are not anagrams.'))
+  end
+
 end
