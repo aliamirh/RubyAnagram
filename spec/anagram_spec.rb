@@ -12,7 +12,11 @@ describe('Anagram#anagram_check') do
     expect(anagram.anagram_check()).to(eq('Sorry, these are not anagrams.'))
   end
   it ('it checks to see if words with capital letters are still anagrams') do
-    anagram = Anagram.new('RuBy','urby')
+    anagram = Anagram.new('RuBy','bury')
     expect(anagram.anagram_check()).to(eq('These words are anagrams.'))
+  end
+  it ('checks to see of word has a vowel') do
+    anagram = Anagram.new('ruby','bury')
+    expect(anagram.anagram_vowel_check()).to(eq("not a word"))
   end
 end

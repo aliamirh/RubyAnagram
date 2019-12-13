@@ -11,5 +11,11 @@ class Anagram
       return "Sorry, these are not anagrams."
     end
   end
-
+  def anagram_vowel_check()
+    if @input1.include?(/[^aeiou$]/) || @input2.include?(/[^aeiou$]/)
+      return 'true'
+    else
+      return 'false'
+    end
+  end
 end
