@@ -11,5 +11,5 @@ class Anagram
       return "Sorry, these are not anagrams."
     end
   end
-  
+
 end
