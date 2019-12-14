@@ -17,14 +17,14 @@ describe('Anagram#anagram_check') do
   end
   it ('checks to see if word has a vowel') do
     anagram = Anagram.new('ruby','bury')
-    expect(anagram.anagram_vowel_check()).to(eq('has vowels'))
+    expect(anagram.anagram_vowel_check()).to(eq('It has vowels'))
   end
   it ('checks to see if word doesnt have a vowel') do
     anagram = Anagram.new('rtby','btry')
-    expect(anagram.anagram_vowel_check()).to(eq('no vowels'))
+    expect(anagram.anagram_vowel_check()).to(eq('Sorry, this doesnt contain a vowel'))
   end
   it ('checks to see if the inputs are an antigram') do
     anagram = Anagram.new('runy','runy')
-    expect(anagram.antigram_check()).to(eq('this is an antigram'))
+    expect(anagram.antigram_check()).to(eq('This is an antigram'))
   end
 end

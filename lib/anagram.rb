@@ -7,17 +7,17 @@ class Anagram
   def anagram_check()
 
     if @input1 == @input2
-      return "These words are anagrams."
+      return 'These words are anagrams.'
     else
-      return "Sorry, these are not anagrams."
+      return 'Sorry, these are not anagrams.'
     end
   end
 
   def anagram_vowel_check()
     if @input1.any?(/[aeiou]/) || @input2.any?(/[aeiou]/)
-      return "has vowels"
+      return 'It has vowels'
     else
-      return 'no vowels'
+      return 'Sorry, this doesnt contain a vowel'
     end
   end
 
@@ -26,7 +26,7 @@ class Anagram
       if @input2.include?(input1)
         return 'This is an antigram'
       else
-        return "This is not an antigram"
+        return 'This is not an antigram'
       end
     end
   end
