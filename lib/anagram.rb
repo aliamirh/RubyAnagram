@@ -12,14 +12,14 @@ class Anagram
       return "Sorry, these are not anagrams."
     end
   end
-  def anagram_vowel_check()
-    # input1 = @input1.scan(/[^aeiou]/)
-    # input2 = @input2.scan(/[^aeiou]/)
 
+  def anagram_vowel_check()
     if @input1.any?(/[aeiou]/) || @input2.any?(/[aeiou]/)
       return "has vowels"
     else
       return 'no vowels'
     end
   end
+
+
 end
