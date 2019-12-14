@@ -1,37 +1,51 @@
-# _{Application Name}_
+# _Anagram Checker_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _You can see if a word is a anagram or antigram! December 13th, 2019_
 
-#### By _**{List of contributors}**_
+#### By _**Ali Amirhamzeh**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_It will show you if the words provided is a anagram or a antigram._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Go to GitHub_
+* _Clone Repository_
+* _Plug in some words_
+* _Observe the okayness_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+```
+It will re-arrange the letters of the first word to see if it can create the second inputted word.
+Input: ruby, bury
+Output: "These words are anagrams."
+
+If you enter capital letters it will still be able to Determine if its a anagram.
+Input: RuBy, bury
+Output: "These words are anagrams."
+
+If you enter a word and doesn't have the same letters as the second word it will display it as a antigram.
+Input: Ruby, Monkey
+Output: "This is an antigram"
+```
+
+
+
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no know bugs at the moment_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Contact me at aliamirhamzeh@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Ruby_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Open source*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Ali Amirhamzeh_**

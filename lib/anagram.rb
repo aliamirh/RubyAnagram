@@ -24,9 +24,9 @@ class Anagram
   def antigram_check()
     @input1.each do |input1|
       if @input2.include?(input1)
-        return 'this is an antigram'
+        return 'This is an antigram'
       else
-        return "this is not an antigram"
+        return "This is not an antigram"
       end
     end
   end
