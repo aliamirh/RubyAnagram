@@ -23,5 +23,9 @@ describe('Anagram#anagram_check') do
     anagram = Anagram.new('rtby','btry')
     expect(anagram.anagram_vowel_check()).to(eq('no vowels'))
   end
+  it ('checks to see of word doesnt have a vowel') do
+    anagram = Anagram.new('runy','runy')
+    expect(anagram.antigram_check()).to(eq('this is an antigram'))
+  end
 
 end
