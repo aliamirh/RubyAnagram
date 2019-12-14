@@ -27,5 +27,4 @@ describe('Anagram#anagram_check') do
     anagram = Anagram.new('runy','runy')
     expect(anagram.antigram_check()).to(eq('this is an antigram'))
   end
-
 end
