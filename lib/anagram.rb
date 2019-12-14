@@ -21,5 +21,20 @@ class Anagram
     end
   end
 
-
+  def antigram_check()
+    @input1.each do |input1|
+      if @input2.include?(input1)
+        return 'this is an antigram'
+      else
+        return "this is not an antigram"
+      end
+    end
+    # anigram1 = @input1
+    # anigram2 = @input2
+    # if anigram1.include?(anigram2)
+    #   return 'this is a antigram'
+    # else
+    #   return "hi"
+    # end
+  end
 end
